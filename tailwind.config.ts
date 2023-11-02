@@ -8,7 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      
+     padding: {
+      '6.5rem': '6.5rem'
+     }
     },
   },
   plugins: [
