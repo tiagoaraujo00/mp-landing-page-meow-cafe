@@ -1,48 +1,36 @@
-Dê vida ao design do "Meow Café" presente no Figma, transformando-o em uma página funcional! O principal objetivo deste mini projeto é refinar suas habilidades em HTML, JavaScript e CSS, construindo uma landing page sem depender de frameworks ou bibliotecas externas.
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## 🔨 Requisitos
+## Getting Started
 
-- A aplicação deverá ser responsiva. Considere **pelo menos** 2 tamanhos de tela (mobile e desktop).
-- Transforme o design do Figma em um site funcional usando apenas HTML, JavaScript e CSS.
-- O desafio principal é fazer a página sem o uso de frameworks ou bibliotecas, mas fica ao seu critério caso você queira utilizar alguma ferramenta que você está estudando (verifique o FAQ para mais informações).
-- Estilize sua aplicação para que ela se assemelhe o máximo possível ao design sugerido.
-- Faça o deploy e submeta sua implementação no Codante.
+First, run the development server:
 
-## 🔍 Dicas
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-- Utilize Flexbox e/ou Grid para criar o layout da página.
-- Para tornar sua página responsiva, considere o uso de media queries em seu CSS.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 🎨 Design
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-Temos um design disponível no Figma.
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-🔗[Link do Figma](https://www.figma.com/community/file/1279469125991371134)
+## Learn More
 
-![Screenshot](https://github.com/codante-io/mp-landing-page-meow-cafe/assets/6475893/e5625356-41ee-431c-b5b1-259c837cbf20)
+To learn more about Next.js, take a look at the following resources:
 
-## 👉🏽 Sobre esse mini-projeto
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-### Tecnologias sugeridas
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-- **HTML**
-- **CSS**
-- **JavaScript Puro**
+## Deploy on Vercel
 
-### Pré-requisitos
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-- `HTML, CSS`
-- `JavaScript`
-
-## Créditos
-Esse design foi criado por [Camilly Vianna]() inspirado no tema [Coffee Shop by Astra](https://wpastra.com/templates/coffee-shop-04/)
-
-## ❓ FAQ
-
-### Posso utilizar frameworks ou bibliotecas para criar este mini projeto?
-
-Esse projeto foi pensado para ser desenvolvido sem o uso de frameworks ou libs externas, portanto a resolução oficial será feita dessa forma. Porém não limitamos os projetos a uma tecnologia exclusiva, dessa forma, se você preferir pode utilizar outras tecnologias.
-
-### Como faço para ver a resolução oficial?
-
-A resolução oficial sempre é disponibilizada no [site oficial do Codante](https://codante.io). Verifique na [nossa agenda](https://codante.io/agenda) se a data da resolução deste mini projeto já está definida.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
