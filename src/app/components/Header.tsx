@@ -3,7 +3,7 @@ import Image from "next/image";
 function Header() {
   return (
     <header className="flex flex-col w-full relative items-center">
-      <div className="flex ml-20 items-center z-10 w-4/5">
+      <div className="flex ml-24 items-center z-10 w-4/5">
         <div className="flex items-center">
           <Image width={120} height={120} src="/meowLogo.png" alt="Logo Meow" />
           <div>
