@@ -12,7 +12,7 @@ const config: Config = {
       '6.5rem': '6.5rem'
      },
      fontSize: {
-      sm: '0.8rem',
+      sm: '0.5rem',
       base: '1rem',
       xl: '1.25rem',
       'xs': '0.6rem',
