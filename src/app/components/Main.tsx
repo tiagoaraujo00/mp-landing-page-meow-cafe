@@ -50,7 +50,8 @@ export default function Main() {
                 <p className="text-sm">R$ 16,00</p>
                 <h2 className="font-semibold">Café ao Leite</h2>
                 <p className="text-sm mb-5">
-                O clássico, amado pelos brasileiros, com um toque de sofisticação!
+                  O clássico, amado pelos brasileiros, com um toque de
+                  sofisticação!
                 </p>
               </div>
               <div className="bg-white w-[90%] rounded-full shadow-xl">
@@ -70,7 +71,7 @@ export default function Main() {
                 <p className="text-sm">R$ 12,00</p>
                 <h2 className="font-semibold">Café preto</h2>
                 <p className="text-sm mb-5">
-                Grãos selecionados feitos no seu método de preparo favorito.
+                  Grãos selecionados feitos no seu método de preparo favorito.
                 </p>
               </div>
               <div className="bg-white w-[90%] rounded-full shadow-xl">
@@ -80,8 +81,30 @@ export default function Main() {
           </div>
         </div>
       </div>
-      <div>
-        <div>Croissants</div>
+      <div className="w-[83%] mt-16 ml-24">
+        <div className="flex justify-between items-center">
+          <div className="flex flex-col gap-2">
+            <h1 className="font-bold text-4xl text-red-950">Croissants</h1>
+            <h2 className="text-red-950 text-2xl font-medium">
+              Conheça nossa receita
+            </h2>
+            <div className="w-[45%] text-[12px]">
+              <p>
+                A nossa receita de Croissant vai te surpreender. Croissants
+                clássicos ou recheados!
+              </p>
+            </div>
+            <p className="font-bold text-red-950">Todos os croissants {">"}</p>
+          </div>
+          <div>
+            <Image
+              src="/croissant.png"
+              alt="croissant"
+              width={300}
+              height={300}
+            />
+          </div>
+        </div>
         <div>Sobre Nós</div>
         <div>Onde estamos</div>
       </div>
