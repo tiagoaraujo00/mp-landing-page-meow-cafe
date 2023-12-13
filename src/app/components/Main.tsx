@@ -116,15 +116,43 @@ export default function Main() {
           </div>
           <div className="right-5 top-9 absolute text-end">
             <div className="text-white">
-            <h1 className="font-bold text-4xl">Levamos até você</h1>
-            <p className="mt-3 font-light text-[0.8rem]">Estamos nos principais aplicativos de Delivery!</p>
+              <h1 className="font-bold text-4xl">Levamos até você</h1>
+              <p className="mt-3 font-light text-[0.8rem]">
+                Estamos nos principais aplicativos de Delivery!
+              </p>
             </div>
             <div className="bg-white text-black font-semibold shadow-lg mt-6 rounded-full absolute right-0 px-16 py-1">
               <button className="text-base">Delivery</button>
             </div>
           </div>
         </div>
-        <div>Sobre Nós</div>
+        <div className="mt-28 flex w-[90%] justify-between ml-12">
+          <div className="w-[35%]">
+            <p className="font-medium text-red-950">Sobre nós</p>
+            <p className="font-bold text-red-950 text-2xl">
+              Nós oferecemos uma experiência inesquecível para amantes de café e
+              pais de pet!
+            </p>
+          </div>
+          <div className="w-[40%]">
+            <p className="font-semibold mb-3 text-[.9rem] text-red-950">
+              O melhor lugar para apreciar o seu café
+            </p>
+            <div className="pb-2">
+              <p className="text-[.8rem]">
+              No Meow Cafe, priorizamos a criação de um espaço onde tanto os
+              seres humanos quanto seus animais de estimação possam relaxar e
+              desfrutar.
+              </p>
+            </div>
+            <p className="text-[.8rem]">
+               Nosso design interior é inspirado na harmonia e
+              conforto, com sofás aconchegantes, iluminação suave e uma
+              decoração que remete à natureza e à alegria que os animais trazem
+              para nossas vidas.
+            </p>
+          </div>
+        </div>
         <div>Onde estamos</div>
       </div>
     </main>
