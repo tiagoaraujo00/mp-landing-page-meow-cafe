@@ -105,6 +105,25 @@ export default function Main() {
             />
           </div>
         </div>
+        <div className="w-45% h-56 bg-gradient-to-r from-red-950 to-red-300 rounded-3xl mt-24 relative">
+          <div className="absolute bottom-8">
+            <Image
+              src="/combocoffee.png"
+              alt="combo coffee"
+              width={350}
+              height={350}
+            />
+          </div>
+          <div className="right-5 top-9 absolute text-end">
+            <div className="text-white">
+            <h1 className="font-bold text-4xl">Levamos até você</h1>
+            <p className="mt-3 font-light text-[0.8rem]">Estamos nos principais aplicativos de Delivery!</p>
+            </div>
+            <div className="bg-white text-black font-semibold shadow-lg mt-6 rounded-full absolute right-0 px-16 py-1">
+              <button className="text-base">Delivery</button>
+            </div>
+          </div>
+        </div>
         <div>Sobre Nós</div>
         <div>Onde estamos</div>
       </div>
