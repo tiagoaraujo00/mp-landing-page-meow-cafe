@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import { MapPin } from 'lucide-react'
 export default function Main() {
   return (
     <main className="w-5/6 pt-32 ml-24">
@@ -153,7 +153,7 @@ export default function Main() {
             </p>
           </div>
         </div>
-        <div className="w-45% h-56 bg-gradient-to-r from-red-950 to-red-300 rounded-3xl mt-24 relative">
+        <div className="w-45% h-56 bg-gradient-to-r from-red-950 to-red-300 rounded-3xl mt-24 relative mb-8">
           <div className="absolute bottom-0">
             <Image
               src="/ondeestamoscafe.png"
@@ -162,15 +162,18 @@ export default function Main() {
               height={350}
             />
           </div>
-          <div className="right-5 top-9 absolute text-end">
-            <div className="text-white">
-              <h1 className="font-bold text-4xl">Levamos até você</h1>
-              <p className="mt-3 font-light text-[0.8rem]">
-                Estamos nos principais aplicativos de Delivery!
-              </p>
-            </div>
-            <div className="bg-white text-black font-semibold shadow-lg mt-6 rounded-full absolute right-0 px-16 py-1">
-              <button className="text-base">Delivery</button>
+          <div className="right-0 absolute w-64 h-full bg-gradient-to-r from-red-300 to-red-950 rounded-r-3xl">
+            <div>
+              <h1>Onde estamos</h1>
+              <div></div>
+              <div className="flex">
+                <div>
+                  <MapPin />
+                </div>
+                <div>
+                <p>Você pode nos encontrar no endereço:</p>
+              </div>
+              </div>
             </div>
           </div>
         </div>
