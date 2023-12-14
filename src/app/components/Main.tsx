@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { MapPin } from 'lucide-react'
+import { MapPin } from "lucide-react";
 export default function Main() {
   return (
     <main className="w-5/6 pt-32 ml-24">
@@ -140,16 +140,15 @@ export default function Main() {
             </p>
             <div className="pb-2">
               <p className="text-[.8rem]">
-              No Meow Cafe, priorizamos a criação de um espaço onde tanto os
-              seres humanos quanto seus animais de estimação possam relaxar e
-              desfrutar.
+                No Meow Cafe, priorizamos a criação de um espaço onde tanto os
+                seres humanos quanto seus animais de estimação possam relaxar e
+                desfrutar.
               </p>
             </div>
             <p className="text-[.8rem]">
-               Nosso design interior é inspirado na harmonia e
-              conforto, com sofás aconchegantes, iluminação suave e uma
-              decoração que remete à natureza e à alegria que os animais trazem
-              para nossas vidas.
+              Nosso design interior é inspirado na harmonia e conforto, com
+              sofás aconchegantes, iluminação suave e uma decoração que remete à
+              natureza e à alegria que os animais trazem para nossas vidas.
             </p>
           </div>
         </div>
@@ -162,17 +161,21 @@ export default function Main() {
               height={350}
             />
           </div>
-          <div className="right-0 absolute w-64 h-full bg-gradient-to-r from-red-300 to-red-950 rounded-r-3xl">
-            <div>
-              <h1>Onde estamos</h1>
-              <div></div>
-              <div className="flex">
-                <div>
+          <div className="right-0 absolute w-64 h-full bg-gradient-to-r from-red-300 to-red-950 rounded-r-3xl flex justify-center">
+            <div className="flex flex-col items-start gap-3 w-[75%] mt-3">
+              <h1 className="text-white font-bold text-xl">Onde estamos</h1>
+              <div className="text-white font-extralight text-xs w-[70%] mt-3">
+                <p>Você pode nos encontrar no endereço:</p>
+              </div>
+              <div className="flex items-center gap-2">
+                <div className="text-white">
                   <MapPin />
                 </div>
                 <div>
-                <p>Você pode nos encontrar no endereço:</p>
-              </div>
+                  <p className="text-white font-extralight text-xs">
+                    Rua do Miado 234, Gatolândia
+                  </p>
+                </div>
               </div>
             </div>
           </div>
