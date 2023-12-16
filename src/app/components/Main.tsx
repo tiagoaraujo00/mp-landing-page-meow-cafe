@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { MapPin } from "lucide-react";
+import { MapPin, Instagram, Facebook, MessageCircleMore } from "lucide-react";
 export default function Main() {
   return (
     <main className="w-5/6 pt-32 ml-24">
@@ -152,8 +152,22 @@ export default function Main() {
             </p>
           </div>
         </div>
-        <div className="w-45% h-56 bg-gradient-to-r from-red-950 to-red-300 rounded-3xl mt-24 relative mb-8">
-          <div className="absolute bottom-0">
+        <div className="w-45% h-[18rem] bg-gradient-to-r from-red-950 to-red-300 rounded-3xl mt-24 relative mb-8">
+          <div className="absolute w-[50%] top-3 left-8 flex flex-col gap-3">
+            <div className="text-white font-bold text-5xl w-[60%]">
+              <h1>Meow Enjoy</h1>
+            </div>
+            <div className="text-white font-thin">
+              <span>Todos os sábados e domingos</span>
+            </div>
+            <div className="text-white font-thin">
+              <span>Venha tomar o seu brunch com a gente!</span>
+            </div>
+            <div className="text-white">
+              <span>Faça uma reserva {">"}</span>
+            </div>
+          </div>
+          <div className="absolute bottom-8 left-80 z-10">
             <Image
               src="/ondeestamoscafe.png"
               alt="onde estamos cafe"
@@ -178,6 +192,36 @@ export default function Main() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+        <div className="flex w-[90%] justify-between">
+          <div className="w-[30%]">
+            <div>
+              <h3>Informações</h3>
+              <span>Todos os direitos reservados Meow Cafe Ltda.</span>
+              <span>
+                Um lugar perfeito para pais de pets e amantes de café!
+              </span>
+            </div>
+            <div className="flex">
+              <div>
+                <Instagram />
+              </div>
+              <div>
+                <Facebook />
+              </div>
+              <div>
+                <MessageCircleMore />
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col w-[30%]">
+            <h3>Links Úteis</h3>
+            <span>Início</span>
+            <span>Sobre</span>
+            <span>Produtos</span>
+            <span>Delivery</span>
+            <span>Login</span>
           </div>
         </div>
       </div>
