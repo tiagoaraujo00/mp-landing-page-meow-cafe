@@ -194,16 +194,16 @@ export default function Main() {
             </div>
           </div>
         </div>
-        <div className="flex w-[90%] justify-between">
+        <div className="flex w-[90%] justify-between pt-8 pb-8">
           <div className="w-[30%]">
-            <div>
-              <h3>Informações</h3>
-              <span>Todos os direitos reservados Meow Cafe Ltda.</span>
-              <span>
+            <div className="flex flex-col gap-3">
+              <h3 className="font-semibold">Informações</h3>
+              <span className="font-light">Todos os direitos reservados Meow Cafe Ltda.</span>
+              <span className="font-light">
                 Um lugar perfeito para pais de pets e amantes de café!
               </span>
             </div>
-            <div className="flex">
+            <div className="flex pt-3 gap-3">
               <div>
                 <Instagram />
               </div>
