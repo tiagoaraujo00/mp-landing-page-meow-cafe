@@ -194,11 +194,13 @@ export default function Main() {
             </div>
           </div>
         </div>
-        <div className="flex w-[90%] justify-between pt-8 pb-8">
-          <div className="w-[30%]">
+        <div className="flex pt-8 pb-8">
+          <div className="w-[30%]  text-xs mr-[10rem]">
             <div className="flex flex-col gap-3">
               <h3 className="font-semibold">Informações</h3>
-              <span className="font-light">Todos os direitos reservados Meow Cafe Ltda.</span>
+              <span className="font-light">
+                Todos os direitos reservados Meow Cafe Ltda.
+              </span>
               <span className="font-light">
                 Um lugar perfeito para pais de pets e amantes de café!
               </span>
@@ -215,13 +217,22 @@ export default function Main() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col w-[30%]">
-            <h3>Links Úteis</h3>
-            <span>Início</span>
-            <span>Sobre</span>
-            <span>Produtos</span>
-            <span>Delivery</span>
-            <span>Login</span>
+          <div className="flex flex-col w-[30%] text-xs">
+            <h3 className="font-bold mb-3">Links Úteis</h3>
+            <span className="font-light">Início</span>
+            <span className="font-light">Sobre</span>
+            <span className="font-light">Produtos</span>
+            <span className="font-light">Delivery</span>
+            <span className="font-light">Login</span>
+          </div>
+          <div className="flex flex-col text-xs ml-[3rem]">
+            <h3 className="font-bold mb-3">Institucional</h3>
+            <span className="font-light">CNPJ: XX. XXX. XXX/0001-XX</span>
+            <span className="font-light">Endereço: Lorem ipsum, 64</span>
+            <span className="font-light">Política de Privacidade</span>
+            <span className="font-light">Dúvidas Frequentes</span>
+            <span className="font-light">Ajuda</span>
+            <span className="font-light">Acessibilidade</span>
           </div>
         </div>
       </div>
